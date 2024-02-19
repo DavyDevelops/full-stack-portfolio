@@ -14,11 +14,11 @@ const config = {
         id: '/#home'
       },
       {
-        name: "Skills",
+        name: "About Us",
         id: '/#skills'
       },
       {
-        name: "Portfolio",
+        name: "Projects",
         id: '/#portfolio'
       },
       {
@@ -26,7 +26,7 @@ const config = {
         id: '/#blogs'
       },
       {
-        name: "Contact",
+        name: "Contact Us",
         id: '/#contact'
       },
     ],
