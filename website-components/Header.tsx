@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Logo from "@/public/images/logo.svg";
+import Logo from "@/public/images/logo.png";
 import Image from "next/image";
 import {
   Sheet,
@@ -47,7 +47,7 @@ function Header() {
             priority={true}
             alt="Logo"
             style={{
-              width: "120px",
+              width: "80px",
             }}
           />
         </Link>

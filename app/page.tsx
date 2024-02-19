@@ -8,6 +8,9 @@ import Blogs from "@/website-components/Blogs";
 import ContactForm from "@/website-components/ContactForm";
 import ContactInfo from "@/website-components/ContactInfo";
 import WebsiteMainLayout from "@/website-components/layout/WebsiteMainLayout";
+import LampDemo from "@/website-components/Lamp";
+import MainComponent from "@/website-components/MainComponent";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -28,7 +31,9 @@ export default async function Index() {
     <WebsiteMainLayout>
       <Banner />
       <PortfolioInfo />
+      <LampDemo />
       <Skills />
+      <MainComponent />
       <Portfolio />
       <Blogs />
       <ContactForm />
