@@ -10,6 +10,7 @@ import ContactInfo from "@/website-components/ContactInfo";
 import WebsiteMainLayout from "@/website-components/layout/WebsiteMainLayout";
 import LampDemo from "@/website-components/Lamp";
 import MainComponent from "@/website-components/MainComponent";
+import SpotlightPreview from "@/website-components/Spotlight"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

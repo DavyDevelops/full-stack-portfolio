@@ -53,48 +53,49 @@ const config = {
   info: {
     data: [
       {
-        title: "80+",
-        subTitle: "Satisfied clients",
+        title: "90+",
+        subTitle: "Projects Completed",
       },
       {
-        title: "200+",
-        subTitle: "Projects completed",
+        title: "900,000+",
+        subTitle: "Lines of Code",
       },
       {
-        title: "99+",
-        subTitle: "Reviews given",
+        title: "50+",
+        subTitle: "Awesome Developers",
       },
     ],
   },
   mySkills: {
-    title: "My Skills",
-    subTitle: "Why Hire Me For Your Next Project?",
+    title: "About Us",
+    subTitle: "Who Are We?",
     content:
-      "I'm specialist in UI/UX Designe. My passion is designing & solving problems through user experience and research.",
+      "Welcome to the American University of Nigeria Google Developers Club.",
     actionButton: {
-      name: "Hire Me",
+      name: "Sign Up",
+      id: "/signup",
     },
     skills: [
       {
         icon: (props: SkillItemProps) => {
           return <SketchLogoIcon {...props}/>
         },
-        title: "Visual Design",
-        subTitle: "Create user interface design with unique & modern ideas",
+        title: "Vision",
+        subTitle: "Our vision is to empower individuals and communities across Africa by leveraging the power of technology to solve pressing challenges and foster sustainable development.",
       },
       {
         icon: (props: SkillItemProps) => {
           return <Pencil2Icon {...props}/>
         },
-        title: "UX Research",
-        subTitle: "Create digital user products with updated ideas",
+        title: "Goals",
+        subTitle: "Empowering through tech education, fostering innovation, engaging communities, and contributing to open-source projects.",
       },
       {
         icon: (props: SkillItemProps) => {
           return <ImageIcon {...props}/>
         },
-        title: "Design Prototype",
-        subTitle: "Create advance design prototype with Figma apps.",
+        title: "Mission",
+        subTitle: "Our mission is to cultivate a vibrant community of developers who are committed to driving positive change through technology.",
       },
     ],
   },
@@ -141,12 +142,15 @@ const config = {
   },
   contact: {
     title: "Contact",
-    subTitle: "Let's Discuss Your Project",
+    subTitle: "Want to learn more about us?",
     content:
       "Let's make something new, different and more meaningful or make thing more visual or conceptual",
     fields: [
       {
-        fieldName: "Full name",
+        fieldName: "First name",
+      },
+      {
+        fieldName: "Last name",
       },
       {
         fieldName: "Your email",
@@ -155,30 +159,27 @@ const config = {
         fieldName: "Phone number",
       },
       {
-        fieldName: "Budget",
-      },
-      {
         fieldName: "Message",
       },
     ],
   },
   contactInfo: {
     call:{
-      fieldName: "Call me",
+      fieldName: "Call Us",
       value: "+1 12445221",
     },
     email:{
       fieldName: "Email me",
-      value: "demo@demo.com",
+      value: "aungdsc@outlook.com",
     },
     address:{
       fieldName: "Address",
-      value: "India",
+      value: "American University of Nigeria",
     }
   },
   footer: {
     leftContent: "@ 2022. All Rights Reserved",
-    centerContent: "Designed by Tanvir Ahmed",
+    centerContent: "Designed by GDSC(Otuekong Nyong)",
   },
 };
 
