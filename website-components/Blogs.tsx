@@ -74,7 +74,7 @@ function Blogs() {
                 {response.data.map((blog: BlogProps, index: number) => (
                   <div className="w-full" key={index.toString()} data-aos="fade-up">
                     <Image src={blog.cover_url} alt="Project" width={`300`} height={300}/>
-                    <Link href={`/blogs/${blog.id}`} className="text-lg text-green-600 font-medium mt-4 block">
+                    <Link href={`/blogs/${blog.id}`} className="text-lg text-black-600 font-medium mt-4 block">
                       {blog.title}
                     </Link>
                     <p className="text-slate-400 font-light">

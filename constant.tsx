@@ -32,7 +32,8 @@ const config = {
     ],
     rightMenu: [
       {
-        name: "Download CV",
+        name: "Sign Up",
+        id: "/signup",
       },
     ],
   },
@@ -46,7 +47,7 @@ const config = {
         name: "Contact Me",
       },
       {
-        name: "View portfolio",
+        name: "View Our Projects",
       },
     ],
   },
@@ -128,16 +129,16 @@ const config = {
     ],
   },
   portfolio: {
-    title: "Portfolio",
-    subTitle: "My Creative Works Latest Projects",
+    title: "Projects",
+    subTitle: "Checkout Our Latest Projects",
     content:
-      "I have selected and mentioned here some of my latest projects to share with you.",
+      "Ready to get your mind blown?.",
   },
   blogs: {
     title: "Blogs",
-    subTitle: "My latest articles",
+    subTitle: "View Our latest articles",
     content:
-      "I have selected and mentioned here some of my latest blogs to share with you.",
+      "Here are some of our insightful blogs we want to share with you.",
     actionButton: "View All",
   },
   contact: {

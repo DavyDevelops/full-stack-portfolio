@@ -55,7 +55,7 @@ function Projects() {
               <div key={index.toString()} className="mb-6 ">
                 <Link
                   href={`/projects/${project.id}`}
-                  className="text-2xl font-normal text-green-400"
+                  className="text-2xl font-normal text-black"
                 >
                   {project.title}
                 </Link>
