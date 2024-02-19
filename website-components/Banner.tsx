@@ -3,7 +3,7 @@
 import React from "react";
 import { config } from "@/constant";
 import Image from "next/image";
-import Profile from "@/public/images/AUNGDSC.png";
+import Profile from "/public/images/AUNGDSC.png";
 import Title from "@/website-components/ui/Title";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import Paragraph from "./ui/Paragraph";
