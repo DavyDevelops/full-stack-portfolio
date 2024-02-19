@@ -41,7 +41,7 @@ const config = {
     title: "Welcome",
     heading: "I have Creative Design Experience",
     subTitle:
-      "I'm Tanvir, a creative Product Designer. I've been helping businesses to solve their problems with my design for 2 years.",
+      "Welcome to the American University of Nigeria Google Developers Club, where innovation meets impact!",
     actionButton: [
       {
         name: "Contact Me",

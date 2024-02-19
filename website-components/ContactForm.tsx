@@ -15,7 +15,7 @@ type Inputs = {
   email: string;
   description: string;
   number: number;
-  budget: string;
+  Subject: string;
 };
 
 function ContactForm() {
@@ -112,10 +112,10 @@ function ContactForm() {
             </div>
             <div className="md:w-full">
               <input
-                type="budget"
+                type="Subject"
                 className="border border-slate-300 w-full p-3 rounded"
-                placeholder="Budget"
-                {...register("budget")}
+                placeholder="Subject"
+                {...register("Subject")}
               />
             </div>
           </div>

@@ -16,9 +16,9 @@ function ContactForm() {
         <p className="text-gray-500">{config.footer.centerContent}</p>
       </div>
       <div className="flex gap-5">
-        <a className="border border-green-500 p-2 rounded-full hover:scale-105 hover:bg-green-600 delay-75 transition-transform group"><LinkedInLogoIcon width={18} height={18} className="text-green-500 hover:text-white"/></a>
-        <a className="border border-green-500 p-2 rounded-full hover:scale-105 hover:bg-green-600 delay-75 transition-transform group"><GitHubLogoIcon width={18} height={18} className="text-green-500 hover:text-white"/></a>
-        <a className="border border-green-500 p-2 rounded-full hover:scale-105 hover:bg-green-600 delay-75 transition-transform group"><InstagramLogoIcon width={18} height={18} className="text-green-500 hover:text-white"/></a>
+        <a className="border border-black p-2 rounded-full hover:scale-105 hover:bg-yellow-600 delay-75 transition-transform group"><LinkedInLogoIcon width={18} height={18} className="text-black hover:text-white"/></a>
+        <a className="border border-black p-2 rounded-full hover:scale-105 hover:bg-yellow-600 delay-75 transition-transform group"><GitHubLogoIcon width={18} height={18} className="text-black hover:text-white"/></a>
+        <a className="border border-black p-2 rounded-full hover:scale-105 hover:bg-yellow-600 delay-75 transition-transform group"><InstagramLogoIcon width={18} height={18} className="text-black hover:text-white"/></a>
       </div>
     </div>
   );

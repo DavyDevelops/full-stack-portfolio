@@ -69,7 +69,7 @@ function Header() {
           {config.header.rightMenu.map((menu, index) => (
             <Link
               href={"#"}
-              className=" border border-green-600 py-2 px-4 text-green-600 hover:bg-green-600 transition-all delay-75 hover:text-white rounded-sm cursor-pointer"
+              className=" border border-blue-600 py-2 px-4 text-blue-600 hover:bg-blue-600 transition-all delay-75 hover:text-white rounded-sm cursor-pointer"
               key={index.toString()}
             >
               {menu.name}
@@ -103,7 +103,7 @@ function Header() {
                   {config.header.rightMenu.map((menu, index) => (
                     <Link
                       href={"#"}
-                      className="text-lg border border-green-600 py-2 px-5 hover:bg-green-600 transition-all delay-75 hover:text-white rounded-sm cursor-pointer"
+                      className="text-lg border border-blue-600 py-2 px-5 hover:bg-blue-600 transition-all delay-75 hover:text-white rounded-sm cursor-pointer"
                       key={index.toString()}
                     >
                       {menu.name}

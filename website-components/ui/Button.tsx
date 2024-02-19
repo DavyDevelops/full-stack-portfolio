@@ -29,7 +29,7 @@ function Button({ children, variant, onClick }: ButtonProperties) {
               onClick();
             }
           }}
-          className="flex items-center cursor-pointer text-sm gap-1 px-4 py-3 bg-green-600 hover:bg-green-700 transition-colors delay-75 text-white rounded-md"
+          className="flex items-center cursor-pointer text-sm gap-1 px-4 py-3 bg-black hover:bg-black transition-colors delay-75 text-white rounded-md"
         >
           {children}
         </button>
