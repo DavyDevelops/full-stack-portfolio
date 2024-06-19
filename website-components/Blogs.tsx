@@ -19,7 +19,7 @@ interface BlogProps {
 }
 
 function Blogs() {
-  const router =  useRouter();
+  const router = useRouter();
   const [response, setResponse] = useReducer(
     (prev: any, next: any) => {
       return { ...prev, ...next };
@@ -71,17 +71,21 @@ function Blogs() {
               </div>
             ) : (
               <>
-                {response.data.map((blog: BlogProps, index: number) => (
-                  <div className="w-full" key={index.toString()} data-aos="fade-up">
-                    <Image src={blog.cover_url} alt="Project" width={`300`} height={300}/>
-                    <Link href={`/blogs/${blog.id}`} className="text-lg text-black-600 font-medium mt-4 block">
-                      {blog.title}
-                    </Link>
-                    <p className="text-slate-400 font-light">
-                      {blog.description}
-                    </p>
-                  </div>
-                ))}
+                {response.data && response.data.length > 0 ? (
+                  response.data.map((blog: BlogProps, index: number) => (
+                    <div className="w-full" key={index.toString()} data-aos="fade-up">
+                      <Image src={blog.cover_url} alt="Project" width={300} height={300} />
+                      <Link href={`/blogs/${blog.id}`} className="text-lg text-black-600 font-medium mt-4 block">
+                        {blog.title}
+                      </Link>
+                      <p className="text-slate-400 font-light">
+                        {blog.description}
+                      </p>
+                    </div>
+                  ))
+                ) : (
+                  <p>No blogs available.</p>
+                )}
               </>
             )}
           </div>
